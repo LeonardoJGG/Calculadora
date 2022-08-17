@@ -1,0 +1,119 @@
+* {
+    font-family: 'Arial', serif;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    background-color: #3c3c3c;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculadora {
+    position: absolute;
+    top: 50%;
+    margin-top: -280px;
+    left: 50%;
+    margin-left: -158px;
+    width: 320px;
+    height: 585px;
+    background-color: #212121;
+    border-radius: 20px;
+}
+
+button {
+    display: inline-block;
+    padding: 0;
+    margin-top: 6px;
+    margin-left: 6px;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    line-height: 5rem;
+    width: 4.31rem;
+    height: 5rem;
+    border-style: none;
+    background-color: #212121;
+}
+
+button:hover{
+    border-radius: 15px;
+    background-color: #303030;
+}
+
+.especial {
+    margin-top: 5px;
+    color: #00ff77;
+}
+
+.equal {
+    background-color: #00db66;
+    float: right;
+    margin-top: 8px;
+    margin-right: 6px;
+    width: 4.32rem;
+    border-radius: 15px;
+    height: 165px;
+    color: white;
+}
+
+.equal:hover{
+    border-radius: 15px;
+    background-color: #00ca5e;
+}
+
+.zero {
+    float: left;
+    margin-left: 6px;
+    /* margin-top: 12px; */
+    width: 9.1rem;
+    border-radius: 15px;
+    height: 5rem;
+    color: white;
+}
+
+.zero:hover{
+    border-radius: 15px;
+}
+
+.point {
+    margin-left: 12px;
+}
+
+.col-2 {
+    grid-column: span 2;
+}
+
+.display {
+    padding: 10px;
+    box-sizing: border-box;
+    border-style: none;
+    display: block;
+    width: 100%;
+    height: 150px;
+    background-color: #252525;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.valores{
+    margin-top: 80px;
+    font-size: 2rem;
+    text-align: right;
+    color: white;
+    /* background-color: green;*/
+} 
+
+#valor-actual {
+    display: inline-block;
+}
+
+#valor-anterior {
+    display: inline-block;
+}
